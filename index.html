@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy-clone</title>
+    <!--google stylesheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--My Style sheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar creation-->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <h1 class="navbar__s1__title">Udemy</h1>
+      </div>
+      <div class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass" style="color: #01130e"></i>
+        <input placeholder="Search anything here.....Text,business,art...." />
+      </div>
+      <div class="navbar__s3">
+        <p>Courses</p>
+        <p>My Learnings</p>
+        <i class="fa-solid fa-cart-shopping" style="color: #000205"></i>
+        <i class="fa-sharp fa-solid fa-bell" style="color: #01060e"></i>
+        <i class="fa-solid fa-user" style="color: #01060e"></i>
+      </div>
+    </div>
+    <!--Catagories section-->
+    <div class="catagories">
+      <p>Development</p>
+      <p>business</p>
+      <p>IT & Software</p>
+      <p>Personal Development</p>
+      <p>Design</p>
+      <p>Marketing</p>
+    </div>
+    <!--Image section-->
+    <div class="sale-image">
+      <img src="./Images/Sale_Image.jpg" alt="sale-image" />
+    </div>
+    <!--Course card section-->
+    <div class="recommended">
+      <h1 class="recommended__title">Recommended For You</h1>
+      <p>Pick the best fit</p>
+      <div class="recommended__container">
+        <div class="course-card">
+          <img src="Images/C1.jpg" />
+          <h3>Python Full stack Development</h3>
+          <p>Dr.Angela yu</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/C2.jpg" />
+          <h3>Java Full stack Development</h3>
+          <p>Col Steele</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/C3.jpg" />
+          <h3>MERN Full stack Development</h3>
+          <p>Mark</p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>1999 <del>6000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/C4.jpg" />
+          <h3>AI & Machine Learning</h3>
+          <p>Elon</p>
+          <p>4.5 ⭐⭐⭐⭐</p>
+          <p>2499 <del>7000</del></p>
+        </div>
+      </div>
+    </div>
+    <!--Topics section-->
+    <div class="topic">
+      <h1 class="topic__title">Topics Recommended for you</h1>
+      <div class="topic__container">
+        <p>Python</p>
+        <p>Java</p>
+        <p>Java Script</p>
+        <p>C & c++</p>
+        <p>MERN</p>
+        <p>MEAN</p>
+        <p>AWS</p>
+        <p>Machine Learning</p>
+        <p>Data Science</p>
+      </div>
+    </div>
+    <!--Popular sectin-->
+    <div class="popular">
+      <h1 class="popular__title">Most Popular</h1>
+      <p>Pick the most popular things below.........</p>
+      <div class="popular__container">
+        <div class="course-card">
+          <img src="Images/R1.jpg" />
+          <h3>Python Full stack Development</h3>
+          <p>Dr.Angela yu</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R2.jpg" />
+          <h3>Java Full stack Development</h3>
+          <p>Col Steele</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R3.jpg" />
+          <h3>AI & Machine Learning</h3>
+          <p>Elon</p>
+          <p>4.5 ⭐⭐⭐⭐</p>
+          <p>2499 <del>7000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R4.jpg" />
+          <h3>MERN Full stack Development</h3>
+          <p>Mark</p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>1999 <del>6000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R5.jpg" />
+          <h3>Java Full stack Development</h3>
+          <p>Col Steele</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R6.jpg" />
+          <h3>MERN Full stack Development</h3>
+          <p>Mark</p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>1999 <del>6000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R7.jpg" />
+          <h3>Python Full stack Development</h3>
+          <p>Dr.Angela yu</p>
+          <p>4.1 ⭐⭐⭐⭐</p>
+          <p>1099 <del>4000</del></p>
+        </div>
+        <div class="course-card">
+          <img src="Images/R8.jpg" />
+          <h3>AI & Machine Learning</h3>
+          <p>Elon</p>
+          <p>4.5 ⭐⭐⭐⭐</p>
+          <p>2499 <del>7000</del></p>
+        </div>
+      </div>
+    </div>
+    <!--footer section-->
+    <div class="footer">
+      <div class="footer__one">
+        <div class="footer__one__s1">
+          <p>Udemy Business</p>
+          <p>Teach on Udemy</p>
+          <p>Get the app</p>
+          <p>About us</p>
+          <p>Contact us</p>
+        </div>
+        <div class="footer__one__s2">
+          <p>Careers</p>
+          <p>Blog</p>
+          <p>Help and Support</p>
+          <p>Affiliate</p>
+          <p>Investors</p>
+        </div>
+      </div>
+      <div class="footer__two">
+        <h1>Udemy</h1>
+        <p>&copy; Udemy,Inc...</p>
+      </div>
+    </div>
+  </body>
+</html>
