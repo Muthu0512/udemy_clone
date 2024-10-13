@@ -42,22 +42,22 @@ body {
   display: flex;
   gap: 20px;
 }
-.mylearning{
+.mylearning {
   position: relative;
-  cursor:pointer;
+  cursor: pointer;
 }
-.mylearning__popup{
-  position:absolute;
+.mylearning__popup {
+  position: absolute;
   border: solid black 2px;
   border-radius: 10px;
   background-color: lime;
-  padding:5px;
+  padding: 5px;
   width: fit-content;
-  top:200%;
+  top: 200%;
   right: 0;
   display: none;
 }
-.mylearning:hover .mylearning__popup{
+.mylearning:hover .mylearning__popup {
   display: block;
 }
 .catagories {
@@ -70,7 +70,15 @@ body {
   background-color: #a435f0;
   padding: 20px;
   border-radius: 30px;
+  border: solid 1px #a435f0;
   color: white;
+  cursor: pointer;
+}
+.catagories p:hover {
+  transition: 1s;
+  background-color: transparent;
+  color: black;
+  border: solid 1px #a435f0;
 }
 .sale-image {
   position: relative;
@@ -79,11 +87,25 @@ body {
   width: 25%;
   position: absolute;
   border: solid white 2px;
-  color: black(0, 255, 55);
-  background-color: #E290AC;
+  color: black;
+  background-color: #e290ac;
   top: 20%;
   left: 15%;
   padding: 25px;
+  animation-name: zoom;
+  animation-duration: 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .sale-image img {
   width: 98%;
@@ -93,6 +115,7 @@ body {
 .recommended {
   padding: 20px;
 }
+
 .recommended__container {
   display: flex;
   justify-content: space-between;
